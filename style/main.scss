@@ -24,7 +24,7 @@ $white: #f0f0f9;
 }
 
 %white-key {
-    $base-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    $base-shadow: 0 1px 1px rgba(177, 21, 164, 0.5);
 
     @include base-shadow($base-shadow);
 }
@@ -124,5 +124,5 @@ body {
 }
 
 .key {
-    transition: transform 80ms ease;
+    transition: transform 70ms ease;
 }
